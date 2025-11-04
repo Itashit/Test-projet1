@@ -1,0 +1,177 @@
+
+*{
+    background-color: black;
+}
+h1,h2,h3,p,a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3,p,pre{
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    border: solid 1rem white;
+    border-radius: 50px;
+    gap: 70px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-top: 50px;
+    gap: 30px;
+    font-weight: bold;
+    background-color: transparent;
+    margin: 50px;
+}
+nav a:hover{
+    transition: 0.3s;
+    transform: scale(1.3);
+    text-shadow: 50px 20px 10px white;
+}
+.sonic{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(5, 100px); 
+    margin-bottom: 500px;
+}
+.ea{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(4, 100px); 
+}
+.ghost{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(5, 100px); 
+}
+.titre{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  
+    grid-template-rows: repeat(3, 100px); 
+}
+.sousTitre{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  
+    grid-template-rows: repeat(2, 100px); 
+}
+.sousTitre pre{
+    grid-column: 3;
+
+}
+.titre pre{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1rem;
+
+}
+.sonic h3{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 2rem;
+}
+.sonic p a{
+    text-decoration: none;
+    color: gray;
+}
+.ghost h3{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 2rem;
+}
+.ghost p a{
+    text-decoration: none;
+    color: gray;
+}
+.ea h3{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 2rem;
+}
+.ea p a{
+    text-decoration: none;
+    color: gray;
+}
+.ea img{
+    grid-column: 3;
+    grid-row: 4;
+}
+.ea p{
+    grid-column: 4;
+    grid-row: 4;
+    font-size: 1.5rem;
+}
+.ghost img{
+    grid-column: 3;
+    grid-row: 4;
+}
+.ghost p{
+    grid-column: 4;
+    grid-row: 4;
+    font-size: 1.5rem;
+}
+.sonic img{
+    grid-column: 3;
+    grid-row: 4;
+}
+.sonic p{
+    grid-column: 4;
+    grid-row: 4;
+    font-size: 1.5rem;
+}
+.ZA {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(4, 100px); 
+}
+.Silksong{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(4, 100px); 
+}
+.Borderlands
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(4, 100px); 
+}
+.page2 hr{
+    margin: 50px;
+
+}
+.page2 .titre{
+    margin-bottom: 200px;
+}
+.Elden{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(4, 100px); 
+}
+.Baldurs{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(4, 100px); 
+}
+.Astro{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+    grid-template-rows: repeat(4, 100px); 
+}
+.page3 hr{
+    margin: 50px;
+
+}
+.page3 .titre{
+    margin-bottom: 200px;
+}
+footer{
+    border: solid 1rem white;
+    border-radius: 50px;
+    padding: 25px;
+}
+hr{
+    width: 1000px;
+    
+}
